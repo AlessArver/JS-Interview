@@ -3,7 +3,7 @@ function counter() {
 
   return () => {
     x = x + 1;
-    
+
     return x;
   };
 }
@@ -16,6 +16,15 @@ console.log(setCountetr()); // 3
 
 const counter2 = (x) => (y) => x + y;
 
-console.log(counter2(2)(3)) // 5
-console.log(counter2(3)(3)) // 6
-console.log(counter2(1)(2)) // 3
+console.log(counter2(2)(3)); // 5
+console.log(counter2(3)(3)); // 6
+console.log(counter2(1)(2)); // 3
+
+function counter3(x) {
+  return function (y) {
+    return x + y;
+  };
+}
+console.log(counter3(2)(3)); // 5
+console.log(counter3(3)(3)); // 6
+console.log(counter3(1)(2)); // 3
