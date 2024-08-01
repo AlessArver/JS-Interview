@@ -8,7 +8,7 @@
 
 **HTML**: https://github.com/AlessArver/JS-Interview/blob/main/html.md
 
-**CSS**: https://github.com/AlessArver/JS-Interview/blob/main/html.md
+**CSS**: https://github.com/AlessArver/JS-Interview/blob/main/css.md
 
 **JavaScript**: https://github.com/AlessArver/JS-Interview/blob/main/javascript.md
 
